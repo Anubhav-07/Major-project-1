@@ -1,0 +1,66 @@
+.portfolio-page {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .project-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+    border-color: rgb(30, 204, 30);
+    cursor: pointer;
+  }
+  
+  .project-card {
+    background-color: #4bd3f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .project-card h3 {
+    margin-top: 0;
+  }
+  
+  .project-card p {
+    margin-bottom: 0;
+  }
+  
+  .project-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+/* CSS code for responsiveness */
+
+/* For screens smaller than 576px (phones) */
+@media (max-width: 575px) {
+  .portfolio-page {
+    padding: 50px 20px;
+  }
+  .project-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .project-card {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .project-card img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+/* For screens between 576px and 991px (tablets) */
+@media (min-width: 576px) and (max-width: 991px) {
+  .portfolio-page {
+    padding: 70px 40px;
+  }
+  /* Adjust other styles as needed for tablets */
+}

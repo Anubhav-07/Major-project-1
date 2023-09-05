@@ -1,0 +1,24 @@
+.counter-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.counter-item{
+    width: 25%;
+    text-align: center;
+}
+.counter-number,
+.counter-title{
+    background: var(--counter-color);
+    background-size: 100% 100%;
+    background-clip: text;
+    -webkit-text-fill-color:rgb(19, 9, 111);
+}
+.counter-number{
+    font-size: 2.5rem;
+}
+.counter-title{
+    font-size: 1.5rem;
+}
+
+  

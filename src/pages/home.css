@@ -1,0 +1,79 @@
+
+.hero-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.hero-content{
+    width: 50%;
+    padding-top: 40px;
+}
+.hero-img{
+    padding-left: 55%;
+    transform: translateY(-300px);
+    max-height: 150%;
+    max-width: 150%;
+
+}
+.hero-content h2{
+    font-size: 3rem;
+
+}
+.highlight{
+    color: rgb(133, 197, 5);
+    
+}
+.hero-btn{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    column-gap: 1.5rem;
+
+}
+.primary-btn{
+    padding: 0.6rem 1.5rem;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 50rem;
+    border: 1px solid rgb(11, 11, 125);
+}
+/* CSS code for responsiveness */
+
+/* For screens smaller than 576px (phones) */
+@media (max-width: 575px) {
+    .hero-content {
+      text-align: center;
+      padding: 2rem;
+    }
+    .hero-btns {
+      display: flex;
+      justify-content: center;
+      margin-top: 1rem;
+    }
+    .hero-img {
+      width: 100%;
+      height: auto;
+    }
+    .counter-item {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+  }
+  
+  /* For screens between 576px and 991px (tablets) */
+  @media (min-width: 576px) and (max-width: 991px) {
+    .hero-content {
+      text-align: center;
+      padding: 2rem;
+    }
+    .hero-img {
+      width: 100%;
+      height: auto;
+    }
+    .counter-item {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+  }
+  
+ 
